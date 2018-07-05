@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+
+    tools:context=".Main2Activity">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:background="#f00">
+
+        <ImageView
+            android:id="@+id/imageview"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+
+            android:background="@mipmap/login" />
+
+        <EditText
+            android:layout_width="450dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+
+            android:background="#F8F8F8"
+            android:hint="高考成绩查询" />
+
+        <TextView
+
+            android:id="@+id/getdj"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:onClick="getdj"
+            android:gravity="center"
+            android:text="+"
+
+
+            android:layout_marginBottom="20dp"
+            android:textSize="60dp"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_weight="8"
+        android:layout_height="match_parent"
+        />
+    <RadioGroup
+        android:id="@+id/group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:button="@null"
+            android:checked="true"
+            android:layout_weight="1"
+            android:background="@drawable/show"
+
+            />
+        <RadioButton
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:button="@null"
+            android:layout_weight="1"
+            android:background="@drawable/classls"
+
+            />
+
+        <RadioButton
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:button="@null"
+            android:layout_weight="1"
+            android:background="@drawable/shop"
+
+            />
+
+        <RadioButton
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:button="@null"
+            android:layout_weight="1"
+            android:background="@drawable/find"
+
+            />
+
+    </RadioGroup>
+
+
+
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:padding="20dp"
+        android:background="@mipmap/a1"/>
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="-25dp"
+        android:textColor="#f8f8f8"
+        android:textSize="25dp"
+        android:text="发图文"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+
+        android:padding="20dp"
+        android:background="@mipmap/a2"/>
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="-25dp"
+
+        android:textColor="#f8f8f8"
+        android:textSize="25dp"
+        android:text="拍小视频"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:padding="25dp"
+        android:background="@mipmap/a3"/>
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="-25dp"
+        android:textSize="25dp"
+        android:textColor="#f8f8f8"
+        android:text="上传视频"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+
+        android:padding="20dp"
+        android:background="@mipmap/a4"/>
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textColor="#f8f8f8"
+        android:textSize="25dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="-25dp"
+        android:text="提问"/>
+
+</LinearLayout>
